@@ -226,15 +226,6 @@ export function GenredleGame() {
             </div>
             <div className="flex gap-2">
               <Button onClick={share}>Share</Button>
-              <Button
-                variant="secondary"
-                onClick={() => {
-                  // Keep the day locked; allow replay only by clearing storage manually.
-                  // This matches most daily games.
-                }}
-              >
-                Done
-              </Button>
             </div>
           </div>
         ) : (
